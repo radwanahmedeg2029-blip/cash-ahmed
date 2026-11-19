@@ -1,0 +1,169 @@
+{
+  "sessionSecret": "0370e1ad8ec82e8beaae51e450350566fbd5e7a76b8f304b2e7f4ecf37955dee",
+  "openingBalance": 150000,
+  "users": [
+    {
+      "id": "gm-salem",
+      "name": "سالم المنصوري",
+      "username": "salem",
+      "role": "gm",
+      "permissions": [
+        "view_treasury_balance",
+        "view_all_receipts",
+        "edit_opening_balance",
+        "export_reports",
+        "manage_users"
+      ],
+      "pinHash": "682f2ad861a766a19bb0e747412db3df:760068e3d0aa80ae7a7b41ecd89667b36f36386255e0c933b49df886e52d93d642f5298f051b0f3e92d95e0cfb370228c6e0e70c563eb8955c44e2a26a1f3ee9",
+      "active": true,
+      "createdAt": "2026-11-19T06:11:26.017Z"
+    },
+    {
+      "id": "acc-nadia",
+      "name": "نادية فؤاد",
+      "username": "nadia",
+      "role": "accountant",
+      "permissions": [
+        "view_treasury_balance",
+        "view_all_receipts",
+        "export_reports"
+      ],
+      "pinHash": "cea0ba2f8c15897c0f22a835ba330203:33d6a074143d369513595cf800d83247ab4701be54ee76247f038c99fdbfd600deb1f01f425dbf91d3fb948b9e3cb4ee25c58f5ca358987833c9328209653ed0",
+      "active": true,
+      "createdAt": "2026-11-19T06:11:26.017Z"
+    },
+    {
+      "id": "trs-youssef",
+      "name": "يوسف الشريف",
+      "username": "youssef",
+      "role": "treasurer",
+      "permissions": [
+        "view_treasury_balance",
+        "view_all_receipts",
+        "edit_opening_balance",
+        "export_reports"
+      ],
+      "pinHash": "22dc474d5c0e963513d7ad69ec38300f:99a017a2bc005492af1ae1cd46c0f23c979444a3d15b28496e2cfbf3f3edbc93a7f0d561f27222b950c1c2b9a488d85ce34df0a459dbdbf6d177b318f00d7dc5",
+      "active": true,
+      "createdAt": "2026-11-19T06:11:26.017Z"
+    },
+    {
+      "id": "col-ahmed",
+      "name": "أحمد محمود",
+      "username": "ahmed",
+      "role": "collector",
+      "permissions": [
+        "record_collection",
+        "view_own_collections"
+      ],
+      "pinHash": "0a93a084f9dc92147f798ac3c0dcc30c:d067ec3853ed67dd1fd87336943bb41d6523ba90f64fcc31ec59ac03f840b2fad0d2db209caeee741831e970c543653f97c3ccb562e55c57f7d28e814296a26a",
+      "active": true,
+      "createdAt": "2026-11-19T06:11:26.017Z"
+    },
+    {
+      "id": "col-kareem",
+      "name": "كريم سعيد",
+      "username": "kareem",
+      "role": "collector",
+      "permissions": [
+        "record_collection",
+        "view_own_collections"
+      ],
+      "pinHash": "ec681b9a570e69af35fd8f4f3dc37dcf:f6b3d45be244da8e070fe3b111ef537acab94a282769b2418ab350f04825da4d5d76686ffa06967addd49e6b0d431e04b0a04e11c80cacfaa8af3589654fe14a",
+      "active": true,
+      "createdAt": "2026-11-19T06:11:26.017Z"
+    }
+  ],
+  "collections": [
+    {
+      "id": "tx-1001",
+      "customerName": "شركة النيل للتوريدات",
+      "collectorId": "col-ahmed",
+      "collectorName": "أحمد محمود",
+      "amount": 14500,
+      "date": "2026-11-19",
+      "createdAt": "2026-11-19T10:15:00"
+    },
+    {
+      "id": "tx-1002",
+      "customerName": "مؤسسة الفجر التجارية",
+      "collectorId": "col-kareem",
+      "collectorName": "كريم سعيد",
+      "amount": 9200,
+      "date": "2026-11-19",
+      "createdAt": "2026-11-19T11:20:00"
+    },
+    {
+      "id": "tx-1003",
+      "customerName": "أسواق الخير الحديثة",
+      "collectorId": "col-ahmed",
+      "collectorName": "أحمد محمود",
+      "amount": 6800,
+      "date": "2026-11-19",
+      "createdAt": "2026-11-19T13:05:00"
+    },
+    {
+      "id": "tx-1004",
+      "customerName": "مجموعة الدلتا الغذائية",
+      "collectorId": "col-tarek",
+      "collectorName": "طارق علي",
+      "amount": 18000,
+      "date": "2026-11-19",
+      "createdAt": "2026-11-19T14:40:00"
+    },
+    {
+      "id": "tx-1005",
+      "customerName": "شركة الأمل للمقاولات",
+      "collectorId": "col-kareem",
+      "collectorName": "كريم سعيد",
+      "amount": 12400,
+      "date": "2026-11-18",
+      "createdAt": "2026-11-18T12:10:00"
+    },
+    {
+      "id": "tx-1006",
+      "customerName": "متاجر الصفا والمروة",
+      "collectorId": "col-ahmed",
+      "collectorName": "أحمد محمود",
+      "amount": 8750,
+      "date": "2026-11-18",
+      "createdAt": "2026-11-18T15:30:00"
+    },
+    {
+      "id": "tx-1007",
+      "customerName": "مؤسسة الرواد الصناعية",
+      "collectorId": "col-tarek",
+      "collectorName": "طارق علي",
+      "amount": 21500,
+      "date": "2026-11-18",
+      "createdAt": "2026-11-18T16:45:00"
+    },
+    {
+      "id": "tx-1008",
+      "customerName": "شركة الوادي الأخضر",
+      "collectorId": "col-ahmed",
+      "collectorName": "أحمد محمود",
+      "amount": 11250,
+      "date": "2026-11-17",
+      "createdAt": "2026-11-17T11:00:00"
+    },
+    {
+      "id": "tx-1009",
+      "customerName": "معرض النور للأجهزة",
+      "collectorId": "col-kareem",
+      "collectorName": "كريم سعيد",
+      "amount": 7600,
+      "date": "2026-11-17",
+      "createdAt": "2026-11-17T14:15:00"
+    },
+    {
+      "id": "tx-1010",
+      "customerName": "مؤسسة الماسة للتوزيع",
+      "collectorId": "col-tarek",
+      "collectorName": "طارق علي",
+      "amount": 15000,
+      "date": "2026-11-15",
+      "createdAt": "2026-11-15T10:30:00"
+    }
+  ]
+}

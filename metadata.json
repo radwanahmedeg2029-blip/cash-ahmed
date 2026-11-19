@@ -1,0 +1,6 @@
+{
+  "name": "دفتر الخزينة — نظام التحصيل والمتابعة",
+  "description": "تطبيق ويب متجاوب باللغة العربية لإدارة التحصيلات الميدانية ومتابعة رصيد الخزينة بصلاحيات دقيقة لأربعة أدوار وظيفية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
